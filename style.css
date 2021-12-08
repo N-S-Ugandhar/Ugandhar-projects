@@ -1,0 +1,64 @@
+#calbtn:hover{
+    background-color: red;
+}
+/* .align{
+    text-align: center;
+} */
+
+.jumbotron{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 100;
+    font-style: oblique;
+    font-variant: small-caps;
+
+}
+
+.align label{
+    padding: 10px;
+    display: inline-block;
+}
+body{
+    background-color: yellow;
+}
+.container1{
+    width: 50%;
+    margin: auto;
+    border: 10px red;
+    border-width: 5px;
+    border-style: solid;
+  
+}
+h1{
+    margin: 10px;
+    padding:10px;
+    border: 10px blue;
+    border-width: 10px;
+    border-style:solid;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: medium;
+    font-family: cursive ;
+}
+.align1 input{
+    /* padding-left: 40px;
+    padding-top: 20px; */
+    padding: 2px;
+    padding-right: 2px;
+    margin: 2px;
+    border:10px green;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    
+}
+.button:hover{
+   background-color: red;
+}
+.button:active{
+    background-color: green;
+}
+.align1 input{
+    width: 100%;
+}
