@@ -5,9 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Prime Number Check</h1>
     <P>GitHub Practice</P>
+
+    <div class="container">
+        <div class="align">
+            <label for="">Number1</label>
+            <input type="number" name="input1" id="" [(ngModel)]="num1"><br><br>
+            <label for="">Number2</label>
+            <input type="number" name="input2" id="" [(ngModel)]="num2"><br><br>
+        </div>
+        <div class="align">
+            <button id="calbtn" class="btn btn-success" (click)="add()">+</button>&nbsp;
+            <button id="calbtn" class="btn btn-success" (click)="sub()">-</button>&nbsp;
+            <button id="calbtn" class="btn btn-success" (click)="mul()">*</button>&nbsp;
+            <button id="calbtn" class="btn btn-success" (click)="div()">/</button><br><br>
+        </div>
+        <div class="align">
+            <button class="btn btn-danger" (click)="resetVal()">reset</button>&nbsp; <span
+                *ngIf="isshow">{{result}}</span>
+        </div>
+
+        <div class="jumbotron">
+            <p>this is simple calculator used for practice</p>
+        </div>
+
+    </div>
 </body>
+<div class="container1">
+    <h1>click counter simple example</h1>
+
+    <div class="align1">
+        <input type="number" name="" [(ngModel)]="increasecount">
+    </div><br><br>
+
+
+    <div class="align1">
+        <button (click)="plusbtn()" class="button"><i class="fas fa-plus fa-3x"></i></button>&nbsp;&nbsp;
+        <button (click)="minusbtn()" class="button"><i class="fas fa-minus fa-3x"></i></button>
+
+        <!-- <i class="fab fa-amazon fa-3x"></i>  -->
+    </div>
+
+</div>
+</body>   
 </html>
